@@ -1,0 +1,152 @@
+#title{
+  background-color:#ff0063;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.5;
+  font-size:3rem;
+  margin-bottom: 5rem;
+  color:white;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.5;
+  font-size:3rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color:grey;
+}
+.container-fluid{
+  padding:3% 15%;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+}
+.navbar{
+  margin-bottom: 4.5rem;
+}
+.navbar-brand
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.5rem;
+  font-weight:bold;
+}
+.nav-item{
+  padding:0 1.2rem;
+}
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.title-img{
+  width:60%;
+  transform:rotate(25deg);
+  margin-left: 7rem;
+  position:absolute;
+  transform:rotate(45);
+
+}
+#features{
+  background-color: #fff;
+  position:relative;
+  z-index:-1;
+}
+@media(max-width:900px)
+{
+  #title{
+    text-align:center;
+    }
+    .title-img{
+    position:static;
+    transform:rotate(0);
+  }
+  #features{
+    position:static;
+
+  }
+
+}
+
+.feature-box
+{
+    padding: 6rem 4rem;
+
+
+}
+.box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color:#f05454;
+  padding:1.5rem;
+}
+.icon:hover{
+  color:#ff0063;
+}
+#testimonials{
+  background-color:#ff0063;
+  padding:7rem 5rem;
+  text-align:center;
+  color:#fff;
+  height: 574px;
+
+}
+
+
+.profile{
+  width:12%;
+  border-radius:100%;
+  margin:8%;
+}
+#press{
+  background-color:#ff0063;
+  text-align:center;
+  padding:4%;
+}
+.press1{
+  width:15%;
+  padding: 2%;
+}
+.carousel-control-prev
+{
+  padding-right:150px;
+}
+.carousel-control-next{
+  padding-left:150px;
+}
+#pricing{
+  text-align:center;
+  padding:6rem;
+  color:#fa7f72;
+}
+.price-h2{
+  color:#ff414d;
+}
+.card-header{
+  color:#d7385e;
+}
+#cta{
+  text-align:center;
+  background-color:#ff0063;
+  padding:6%;
+  color:white;
+  margin-bottom:3rem;
+
+}
+.cta-h3
+{
+font-size:3rem;
+line-height:2;
+}
+
+
+#footer{
+  text-align:center;
+}
+.social-icon{
+  padding:3% 2%;
+}
